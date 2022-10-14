@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #1B244A;
+}
+@font-face {
+    font-family: myFont;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    font-family: myFont;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    border-radius: 10px;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    color: white;
+    background: none;
+    cursor: pointer;
+    border-color: aliceblue;
+    font-size: 22px;
+    font-family: myFont;
+    border-radius: 5px;
+}
+
+h3 { 
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.Reset { 
+    
+    font-family: myFont;
+    font-size: 20px;
+
+    
+}
+
+h1  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#countdown {
+    background: #0a0001;
+    font-size: 30px;
+    color: #F94F6D;
+    width: 120px;
+    height: 40px;
+    margin: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-family: myFont;
+}
+
+
+

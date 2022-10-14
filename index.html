@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body> 
+        <div class="container"> 
+           <div class="column">
+             <h3> HOME </h3> 
+             <h2 class="score" id="score-el">0</h2>
+                <div class="container"> 
+                    <button onclick="addone()">+1</button>
+                    <button onclick="addtwo()">+2</button>
+                    <button onclick="addthree()">+3</button>
+                </div>
+           </div >  
+       <div class="timer">
+                <h3 id="countdown"> 12:00 </h3>
+                <button class="Reset" onclick="reset()">Reset</button>  
+           </div>
+                               
+           <div class="column">
+                <h3>GUEST</h3>
+                <h2 class="score" id="score2-el">0</h2>
+                    <div class="container">
+                        <button onclick="addone1()">+1</button>
+                        <button onclick="addtwo1()">+2</button>
+                        <button onclick="addthree1()">+3</button>
+                    </div>
+           </div>
+           
+        </div>
+        <script src ="index.js"></script>
+    </body>
+</html>
